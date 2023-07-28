@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Industry-Demi";
+  src: url("Industry-Demi.ttf") format("truetype"),
+    url("Industry-Demi.woff") format("woff"),
+    url("Industry-Demi.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Industry-Bold";
+  src: url("Industry-Bold.ttf") format("truetype"),
+    url("Industry-Bold.woff") format("woff"),
+    url("Industry-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Rigamesh";
+  src: url("Rigamesh.ttf") format("truetype"),
+    url("Rigamesh.woff") format("woff"), url("Rigamesh.woff2") format("woff2");
+}
