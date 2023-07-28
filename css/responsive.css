@@ -1,11 +1,517 @@
-@media (max-width: 1350.98px) {
+@media (max-width: 1670.98px) {
+  .cutomize-battle__area-bg {
+    height: 1000px;
+  }
+
+  .common {
+    padding: 0;
+  }
+
+  .hero__area .common {
+    padding-top: 96px;
+  }
+}
+
+@media (max-width: 1500.98px) {
+  body {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .container {
+    max-width: 1140px;
+  }
+
+  .header .container {
+    max-width: 1140px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .nav__links {
+    gap: 50px;
+  }
+
+  .nav__left {
+    gap: 100px;
+  }
+
+  .common__content h1,
+  .common__content h2,
+  .cutomize-battle__content h2,
+  .section__heading h2 {
+    font-size: 44px;
+    line-height: 55px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  .common__area-bg {
+    height: 750px;
+  }
+
+  .common {
+    gap: 40px;
+  }
+
+  .cutomize-battle__area-bg {
+    height: 800px;
+  }
+
+  .cutomize-battle__image {
+    width: 350px;
+    height: 350px;
+  }
+
+  .cutomize-battle__image img {
+    object-fit: contain;
+  }
+
+  .cutomize-battle__feature h6 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .cutomize-battle__feature h5 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .cutomize-battle__info-heading {
+    margin-bottom: 30px;
+  }
+
+  .cutomize-battle__details {
+    margin-top: 50px;
+  }
+
+  .cutomize-battle__nav h4 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .cutomize-battle__nav {
+    height: 50px;
+    margin-top: 0;
+  }
+
+  .cutomize-battle__content h2 {
+    margin-bottom: 14px;
+  }
+
+  .cutomize-battle__nav {
+    padding: 0 15px;
+  }
+
+  .cutomize-battle__level,
+  .cutomize-battle__hp {
+    width: 330px;
+  }
+
+  .cutomize-battle__progress {
+    flex: 1;
+  }
+
+  .action__area-bg {
+    height: 850px;
+  }
+
+  .slider__box > img {
+    height: 400px;
+  }
+
+  .action__item-image {
+    height: 208px;
+  }
+
+  .action__item-title {
+    font-size: 22px;
+    line-height: 32px;
+    margin-top: 20px;
+  }
+
+  .swiper-pagination-bullet {
+    width: 18px;
+    height: 18px;
+  }
+
+  .action__area {
+    margin-top: -100px;
+  }
+
+  .social__icon {
+    width: 70px;
+    height: 70px;
+    padding: 14px;
+  }
+
+  .footer__logo {
+    width: fit-content;
+    height: 130px;
+  }
+
+  .footer__logo {
+    object-fit: contain;
+  }
 }
 
 @media (max-width: 1199.98px) {
-}
+  .navbar-toggler {
+    display: block;
+  }
 
-@media (max-width: 991.98px) {
+  .header {
+    height: auto;
+    padding: 15px 0;
+  }
+
+  .navbar--show {
+    padding-bottom: 30px;
+  }
+
+  .nav,
+  .nav__left,
+  .nav__links,
+  .nav__right {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  nav,
+  .nav__left,
+  .nav__links,
+  .nav__right {
+    gap: 20px;
+  }
+
+  .header .nav__links {
+    display: none;
+  }
+
+  .nav__right {
+    display: none;
+  }
+
+  .navbar--show .nav__right,
+  .navbar--show .nav__links {
+    display: flex;
+  }
+
+  .footer__area .nav__links {
+    flex-direction: row;
+  }
+
+  .header .container {
+    padding: 0 30px;
+  }
+
+  .container {
+    max-width: 720px;
+  }
+
+  .common__area-bg {
+    height: 800px;
+  }
+
+  .common__content h1,
+  .common__content h2,
+  .cutomize-battle__content h2,
+  .section__heading h2 {
+    font-size: 38px;
+    line-height: 46px;
+    margin-bottom: 10px;
+  }
+
+  .battleship__area .common {
+    justify-content: flex-start;
+  }
+
+  .common__btns {
+    margin-top: 30px;
+    justify-content: center;
+  }
+
+  .common__content {
+    max-width: 100%;
+  }
+
+  .btn__account {
+    line-height: 16px;
+  }
+
+  .hero__area .common__content,
+  .battleship__area .common__content {
+    text-align: center;
+    max-width: 580px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero__area .common__content p,
+  .battleship__area .common__content p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .common {
+    flex-direction: column;
+  }
+
+  .journey__area-bg {
+    height: 950px;
+  }
+
+  .journey__area {
+    margin-top: -110px;
+  }
+
+  .cutomize-battle__area-bg {
+    height: 1450px;
+  }
+
+  .cutomize-battle__box > img {
+    display: none;
+  }
+
+  .cutomize-battle__content {
+    position: static;
+  }
+
+  .cutomize-battle {
+    background: linear-gradient(90deg, #00050d 0%, #1b2140 50%, #040d16 100%);
+  }
+
+  .cutomize-battle__content {
+    padding: 80px 50px;
+  }
+
+  .cutomize-battle__area {
+    margin-top: -150px;
+  }
+
+  .cutomize-battle__nav {
+    padding: 0;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+  }
+
+  .cutomize-battle__level,
+  .cutomize-battle__hp {
+    width: 100%;
+  }
+
+  .cutomize-battle__details {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .cutomize-battle__image {
+    width: 400px;
+    height: 400px;
+  }
+
+  .action__item-image {
+    height: auto;
+  }
+
+  .slider__box > img {
+    display: none;
+  }
+
+  .slider__box {
+    background: linear-gradient(90deg, #00050d 0%, #1b2140 50%, #040d16 100%);
+  }
+
+  .slider__main {
+    position: static;
+  }
+
+  .action__area-bg {
+    height: 1100px;
+  }
+
+  .action__area {
+    margin-top: -170px;
+  }
+
+  .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+  }
 }
 
 @media (max-width: 767.98px) {
+  .container,
+  .header .container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .common__content h1,
+  .common__content h2,
+  .cutomize-battle__content h2,
+  .section__heading h2 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+  body {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .common__btns {
+    flex-direction: column;
+  }
+
+  .hero__area .common {
+    padding-top: 70px;
+  }
+
+  .video-container {
+    height: 220px;
+  }
+
+  .journey__play-button {
+    width: 60px;
+    height: 60px;
+  }
+
+  .journey__play-button img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .common__area-bg {
+    height: 700px;
+  }
+
+  .cutomize-battle__area-bg {
+    height: 1650px;
+  }
+
+  .cutomize-battle__content {
+    padding: 50px 25px;
+  }
+
+  .cutomize-battle__image {
+    width: 100%;
+    height: 100%;
+  }
+
+  .cutomize-battle__power-line {
+    display: none;
+  }
+
+  .cutomize-battle__feature-left,
+  .cutomize-battle__feature {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .cutomize-battle__feature-left {
+    padding-left: 0;
+  }
+
+  .cutomize-battle__feature {
+    gap: 5px;
+  }
+
+  .cutomize-battle__power {
+    width: 170px;
+    height: auto;
+  }
+
+  .cutomize-battle__features {
+    gap: 35px;
+  }
+
+  .cutomize-battle__info-heading {
+    margin-left: 0;
+  }
+
+  .action__area-bg {
+    height: 750px;
+  }
+
+  .slider__main {
+    padding: 20px 15px;
+  }
+
+  .action__item-title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .swiper-pagination {
+    bottom: -60px !important;
+  }
+
+  .action__area {
+    margin-top: -150px;
+  }
+
+  .social__icons {
+    gap: 20px;
+  }
+
+  .social__icon {
+    width: 50px;
+    height: 50px;
+    padding: 14px;
+    padding-left: 14px;
+  }
+
+  .footer__area {
+    padding-top: 60px;
+    padding-bottom: 70px;
+  }
+
+  .footer__logo {
+    width: fit-content;
+    height: 70px;
+    margin-bottom: 20px;
+  }
+
+  .footer__area .nav__links,
+  .footer__bottom-links {
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 5px;
+  }
+
+  .footer__area .nav__links {
+    margin-bottom: 20px;
+  }
+
+  .footer__area .nav__links li a {
+    font-size: 16px !important;
+    line-height: 26px !important;
+  }
+
+  .footer__copyrights,
+  .footer__bottom-links li a {
+    font-size: 14px;
+    line-height: 22px;
+    font-family: "Industry-Bold", sans-serif;
+  }
+
+  .footer__bottom-links {
+    column-gap: 30px;
+    row-gap: 0px;
+    margin-top: 15px;
+  }
+
+  .nav__logo {
+    height: 50px;
+  }
+
+  .navbar-toggler {
+    top: 5px;
+  }
 }
